@@ -1,13 +1,13 @@
 version: '3.7'
 services:
  frontend:
-   image: hussasul/frontend:v1.2
+   image: hussasul/frontend:v1.3
    ports:
    -  target: 3000
       published: 3000
       protocol: tcp
  backend:
-   image: hussasul/backend:v1.2
+   image: hussasul/backend:v1.3
    ports:
    -  target: 8080
       published: 8080
